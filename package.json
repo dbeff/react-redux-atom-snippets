@@ -1,0 +1,20 @@
+{
+  "name": "react-redux-atom-snippets",
+  "main": "./lib/react-redux-atom-snippets",
+  "version": "0.1.0",
+  "description": "Atom snippets for React with Redux",
+  "keywords": [
+    "react",
+    "redux",
+    "frontendler",
+    "atom",
+    "snippet",
+    "snippets"
+  ],
+  "repository": "https://github.com/frontendler/react-redux-atom-snippets",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}

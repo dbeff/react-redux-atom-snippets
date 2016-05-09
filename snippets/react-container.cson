@@ -1,0 +1,35 @@
+'.source.scss':
+  'React Redux':
+    'prefix': 'react-container'
+    'body': """
+        import React,{Component} from 'react';
+        import {connect} from 'react-redux';
+        import {bindActionCreators} from 'redux';
+
+        class ${1:class} extends Component {
+
+            constructor(props){
+                super(props);
+                this.state = {};
+            }
+
+            render() {
+                return (
+                    <div className="${2:class-name}">
+                        ${3:content}
+                    </div>
+                );
+            }
+        }
+
+        function mapStateToProps({}){
+            return {};
+        }
+
+        function mapDispatchToProps(dispatch){
+            return bindActionCreators({},dispatch);
+        }
+
+        export default connect (mapStateToProps,mapDispatchToProps)(Index);
+
+    """

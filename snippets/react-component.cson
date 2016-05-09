@@ -1,0 +1,17 @@
+'.source.scss':
+  'React Redux':
+    'prefix': 'react-component'
+    'body': """
+        import React,{Component} from 'react';
+
+        export default class ${1:class} extends Component {
+
+            render() {
+                return (
+                    <div className="${2:class-name}">
+                        ${3:content}
+                    </div>
+                );
+            }
+        }
+    """
