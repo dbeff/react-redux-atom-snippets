@@ -11,7 +11,7 @@
     "snippet",
     "snippets"
   ],
-  "repository": "https://github.com/frontendler/react-redux-atom-snippets",
+  "repository": "https://github.com/dbeff/react-redux-atom-snippets",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
