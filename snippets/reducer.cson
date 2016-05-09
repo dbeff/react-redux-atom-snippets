@@ -1,0 +1,18 @@
+'.source.js':
+  'React Redux':
+    'prefix': 'react-reducer'
+    'description': 'React Redux Reducer'
+    'body': """
+        import {${1:ACTION}} from '../actions/index';
+
+        const initialState = ${2:initialState}
+
+        export default function(state = initialState,action) {
+            switch (action.type){
+                case SERVICE:
+                    return ${3:action.payload}
+            }
+            return state;
+        }
+
+    """
