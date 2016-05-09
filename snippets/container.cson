@@ -31,6 +31,6 @@
             return bindActionCreators({},dispatch);
         }
 
-        export default connect (mapStateToProps,mapDispatchToProps)(Index);
+        export default connect (mapStateToProps,mapDispatchToProps)(${1:Class});
 
     """
