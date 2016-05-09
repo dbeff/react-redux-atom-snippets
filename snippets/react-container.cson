@@ -1,6 +1,7 @@
-'.source.scss':
+'.source.js':
   'React Redux':
     'prefix': 'react-container'
+    'description': 'React Redux Container'
     'body': """
         import React,{Component} from 'react';
         import {connect} from 'react-redux';
