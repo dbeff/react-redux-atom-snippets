@@ -9,7 +9,7 @@
 
         export default function(state = initialState,action) {
             switch (action.type){
-                case {${3:ACTION}}:
+                case ${3:ACTION}:
                     return ${4:action.payload}
             }
             return state;
