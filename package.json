@@ -6,10 +6,10 @@
   "keywords": [
     "react",
     "redux",
-    "frontendler",
     "atom",
     "snippet",
-    "snippets"
+    "snippets",
+    "frontendler"
   ],
   "repository": "https://github.com/dbeff/react-redux-atom-snippets",
   "license": "MIT",
