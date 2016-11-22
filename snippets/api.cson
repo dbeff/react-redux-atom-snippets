@@ -3,43 +3,53 @@
         'prefix': 'componentDidMount'
         'description': 'componentDidMount()'
         'body': "componentDidMount() {\n\t${1}\n}"
+
     'React Redux':
         'prefix': 'componentDidUpdate'
         'description': 'componentDidUpdate(prevProps, prevState)'
         'body': "componentDidUpdate(prevProps, prevState) {\n\t${1}\n}"
+
     'React Redux':
         'prefix': 'componentWillMount'
         'description': 'componentWillMount()'
         'body': "componentWillMount() {\n\t${1}\n}"
+
     'React Redux':
         'prefix': 'componentWillUnmount'
         'description': 'componentWillUnmount()'
         'body': "componentWillUnmount() {\n\t${1}\n}"
+
     'React Redux':
         'prefix': 'componentWillReceiveProps'
         'description': 'componentWillReceiveProps(nextProps)'
         'body': "componentWillReceiveProps(nextProps) {\n\t${1}\n}"
+
     'React Redux':
         'prefix': 'componentWillUpdate'
         'description': 'componentWillUpdate(nextProps, nextState)'
         'body': "componentWillUpdate(nextProps, nextState) {\n\t${1}\n}"
+
     'React Redux':
         'prefix': 'shouldComponentUpdate'
         'description': 'shouldComponentUpdate(nextProps, nextState)'
         'body': "shouldComponentUpdate(nextProps, nextState) {\n\t${1}\n}"
+
     'React Redux':
         'prefix': 'setState'
         'description': 'this.setState({})'
         'body': "this.setState({${1:key},${2:value}})"
+
     'React Redux':
         'prefix': 'state'
         'description': 'this.state'
         'body': "this.state.${1:key}"
+
     'React Redux':
         'prefix': 'props'
         'description': 'this.props'
         'body': "this.props.${1:key}"
+
     'React Redux':
         'prefix': 'render'
         'description': 'render()'
-        'body': "${1:render}(){\n\treturn(\n\t${1:content}\n\t);\n}"
+        'body': "${1:render}(){\n\treturn(\n\t${2}\n\t);\n}"
