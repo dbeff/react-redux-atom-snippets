@@ -1,7 +1,7 @@
 {
   "name": "react-redux-atom-snippets",
   "main": "./lib/react-redux-atom-snippets",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Atom snippets for React with Redux",
   "keywords": [
     "react",
