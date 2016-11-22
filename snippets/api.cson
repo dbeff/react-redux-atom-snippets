@@ -1,0 +1,85 @@
+".source.js, .source.jsx, .source.ts":
+  'React Redux':
+    'prefix': 'componentDidMount'
+    'description': 'componentDidMount()'
+    'body': """
+        componentDidMount(){
+          ${1:content}
+        }
+    """
+  'React Redux':
+    'prefix': 'componentDidUpdate'
+    'description': 'componentDidUpdate(prevProps, prevState)'
+    'body': """
+        componentDidUpdate(prevProps, prevState){
+          ${1:content}
+        }
+    """
+  'React Redux':
+    'prefix': 'componentWillMount'
+    'description': 'componentWillMount()'
+    'body': """
+        componentWillMount(){
+          ${1:content}
+        }
+    """
+  'React Redux':
+    'prefix': 'componentWillUnmount'
+    'description': 'componentWillUnmount()'
+    'body': """
+        componentWillUnmount(){
+          ${1:content}
+        }
+    """
+  'React Redux':
+    'prefix': 'componentWillReceiveProps'
+    'description': 'componentWillReceiveProps(nextProps)'
+    'body': """
+        componentWillReceiveProps(nextProps){
+          ${1:content}
+        }
+    """
+  'React Redux':
+    'prefix': 'componentWillUpdate'
+    'description': 'componentWillUpdate(nextProps, nextState)'
+    'body': """
+        componentWillUpdate(nextProps, nextState){
+          ${1:content}
+        }
+    """
+  'React Redux':
+    'prefix': 'shouldComponentUpdate'
+    'description': 'shouldComponentUpdate(nextProps, nextState)'
+    'body': """
+        shouldComponentUpdate(nextProps, nextState){
+          ${1:content}
+        }
+    """
+  'React Redux':
+    'prefix': 'setState'
+    'description': 'this.setState({})'
+    'body': """
+        this.setState({${1:key},${2:value}})
+    """
+  'React Redux':
+    'prefix': 'state'
+    'description': 'this.state'
+    'body': """
+        this.state.${1:key}
+    """
+  'React Redux':
+    'prefix': 'props'
+    'description': 'this.props'
+    'body': """
+        this.props.${1:key}
+    """
+  'React Redux':
+    'prefix': 'render'
+    'description': 'render()'
+    'body': """
+        ${1:render}(){
+          return(
+            ${1:content}
+          );
+        }
+    """
