@@ -1,5 +1,13 @@
 ".source.js, .source.jsx, .source.ts":
 
+    "React: constructor":
+        "prefix": "construct"
+        "description": "constructor(props)"
+        "descriptionMoreURL": "https://facebook.github.io/react/docs/react-component.html#constructor"
+        "leftLabelHTML": "fn()"
+        "rightLabelHTML": "React"
+        "body": "constructor(props){\n\tsuper(props);\n\tthis.state = {};\n}"
+
     "React: state":
         "prefix": "state"
         "description": "this.state"
