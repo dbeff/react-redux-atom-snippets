@@ -1,4 +1,4 @@
-'.source.js':
+".source.js, .source.jsx, .source.ts":
   'React Redux':
     'prefix': 'react-container'
     'description': 'React Redux Container'
