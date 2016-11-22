@@ -1,55 +1,100 @@
 ".source.js, .source.jsx, .source.ts":
-    'React Redux':
-        'prefix': 'componentDidMount'
-        'description': 'componentDidMount()'
-        'body': "componentDidMount() {\n\t${1}\n}"
 
-    'React Redux':
-        'prefix': 'componentDidUpdate'
-        'description': 'componentDidUpdate(prevProps, prevState)'
-        'body': "componentDidUpdate(prevProps, prevState) {\n\t${1}\n}"
+    "React: state":
+        "prefix": "state"
+        "description": "this.state"
+        "descriptionMoreURL": "https://facebook.github.io/react/docs/react-component.html#state"
+        "leftLabelHTML": "Object"
+        "rightLabelHTML": "React"
 
-    'React Redux':
-        'prefix': 'componentWillMount'
-        'description': 'componentWillMount()'
-        'body': "componentWillMount() {\n\t${1}\n}"
+        "body": "this.state.${1:key}"
 
-    'React Redux':
-        'prefix': 'componentWillUnmount'
-        'description': 'componentWillUnmount()'
-        'body': "componentWillUnmount() {\n\t${1}\n}"
+    "React: setState":
+        "prefix": "setState"
+        "description": "this.setState({})"
+        "descriptionMoreURL": "https://facebook.github.io/react/docs/react-component.html#setstate"
+        "leftLabelHTML": "fn({})"
+        "rightLabelHTML": "React"
 
-    'React Redux':
-        'prefix': 'componentWillReceiveProps'
-        'description': 'componentWillReceiveProps(nextProps)'
-        'body': "componentWillReceiveProps(nextProps) {\n\t${1}\n}"
+        "body": "this.setState({${1:key},${2:value}})"
 
-    'React Redux':
-        'prefix': 'componentWillUpdate'
-        'description': 'componentWillUpdate(nextProps, nextState)'
-        'body': "componentWillUpdate(nextProps, nextState) {\n\t${1}\n}"
+    "React: props":
+        "prefix": "props"
+        "description": "this.props"
+        "descriptionMoreURL": "https://facebook.github.io/react/docs/react-component.html#props"
+        "leftLabelHTML": "Object"
+        "rightLabelHTML": "React"
 
-    'React Redux':
-        'prefix': 'shouldComponentUpdate'
-        'description': 'shouldComponentUpdate(nextProps, nextState)'
-        'body': "shouldComponentUpdate(nextProps, nextState) {\n\t${1}\n}"
+        "body": "this.props.${1:key}"
 
-    'React Redux':
-        'prefix': 'setState'
-        'description': 'this.setState({})'
-        'body': "this.setState({${1:key},${2:value}})"
+    "React: render":
+        "prefix": "render"
+        "description": "render()"
+        "descriptionMoreURL": "https://facebook.github.io/react/docs/react-component.html#render"
+        "leftLabelHTML": "fn()"
+        "rightLabelHTML": "React"
+        "body": "${1:render}(){\n\treturn(\n\t\t${2}\n\t);\n}"
 
-    'React Redux':
-        'prefix': 'state'
-        'description': 'this.state'
-        'body': "this.state.${1:key}"
+    "React: componentDidMount":
+        "prefix": "componentDidMount"
+        "description": "componentDidMount()"
+        "descriptionMoreURL": "https://facebook.github.io/react/docs/react-component.html#componentdidmount"
+        "leftLabelHTML": "fn()"
+        "rightLabelHTML": "React"
+        "body": "componentDidMount() {\n\t${1}\n}"
 
-    'React Redux':
-        'prefix': 'props'
-        'description': 'this.props'
-        'body': "this.props.${1:key}"
+    "React: componentDidUpdate":
+        "prefix": "componentDidUpdate"
+        "description": "componentDidUpdate(prevProps, prevState)"
+        "descriptionMoreURL": "https://facebook.github.io/react/docs/react-component.html#componentdidupdate"
+        "leftLabelHTML": "fn(pp,ps)"
+        "rightLabelHTML": "React"
+        "body": "componentDidUpdate(prevProps, prevState) {\n\t${1}\n}"
 
-    'React Redux':
-        'prefix': 'render'
-        'description': 'render()'
-        'body': "${1:render}(){\n\treturn(\n\t${2}\n\t);\n}"
+    "React: componentWillMount":
+        "prefix": "componentWillMount"
+        "description": "componentWillMount()"
+        "descriptionMoreURL": "https://facebook.github.io/react/docs/react-component.html#componentwillmount"
+        "leftLabelHTML": "fn()"
+        "rightLabelHTML": "React"
+        "body": "componentWillMount() {\n\t${1}\n}"
+
+    "React: componentWillUnmount":
+        "prefix": "componentWillUnmount"
+        "description": "componentWillUnmount()"
+        "descriptionMoreURL": "https://facebook.github.io/react/docs/react-component.html#componentwillunmount"
+        "leftLabelHTML": "fn()"
+        "rightLabelHTML": "React"
+        "body": "componentWillUnmount() {\n\t${1}\n}"
+
+    "React: componentWillReceiveProps":
+        "prefix": "componentWillReceiveProps"
+        "description": "componentWillReceiveProps(nextProps)"
+        "descriptionMoreURL": "https://facebook.github.io/react/docs/react-component.html#componentwillreceiveprops"
+        "leftLabelHTML": "fn(np)"
+        "rightLabelHTML": "React"
+        "body": "componentWillReceiveProps(nextProps) {\n\t${1}\n}"
+
+    "React: componentWillUpdate":
+        "prefix": "componentWillUpdate"
+        "description": "componentWillUpdate(nextProps, nextState)"
+        "descriptionMoreURL": "https://facebook.github.io/react/docs/react-component.html#componentwillreceiveprops"
+        "leftLabelHTML": "fn(np, ns)"
+        "rightLabelHTML": "React"
+        "body": "componentWillUpdate(nextProps, nextState) {\n\t${1}\n}"
+
+    "React: shouldComponentUpdate":
+        "prefix": "shouldComponentUpdate"
+        "description": "shouldComponentUpdate(nextProps, nextState)"
+        "descriptionMoreURL": "https://facebook.github.io/react/docs/react-component.html#shouldcomponentupdate"
+        "leftLabelHTML": "fn(np,ns)"
+        "rightLabelHTML": "React"
+        "body": "shouldComponentUpdate(nextProps, nextState) {\n\t${1}\n}"
+
+    "React: render":
+        "prefix": "render"
+        "description": "render()"
+        "descriptionMoreURL": "https://facebook.github.io/react/docs/react-component.html#render"
+        "leftLabelHTML": "fn()"
+        "rightLabelHTML": "React"
+        "body": "${1:render}(){\n\treturn(\n\t\t${2}\n\t);\n}"
