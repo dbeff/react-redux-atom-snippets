@@ -1,12 +1,19 @@
 ".source.js, .source.jsx, .source.ts":
 
+    "React: constructor":
+        "prefix": "constructor"
+        "description": "constructor(props)"
+        "descriptionMoreURL": "https://facebook.github.io/react/docs/react-component.html#constructor"
+        "leftLabelHTML": "fn()"
+        "rightLabelHTML": "React"
+        "body": "constructor(props){\n\tsuper(props);\n\tthis.state = {};\n}"
+
     "React: state":
         "prefix": "state"
         "description": "this.state"
         "descriptionMoreURL": "https://facebook.github.io/react/docs/react-component.html#state"
         "leftLabelHTML": "Object"
         "rightLabelHTML": "React"
-
         "body": "this.state.${1:key}"
 
     "React: setState":
@@ -15,7 +22,6 @@
         "descriptionMoreURL": "https://facebook.github.io/react/docs/react-component.html#setstate"
         "leftLabelHTML": "fn({})"
         "rightLabelHTML": "React"
-
         "body": "this.setState({${1:key},${2:value}})"
 
     "React: props":
@@ -24,7 +30,6 @@
         "descriptionMoreURL": "https://facebook.github.io/react/docs/react-component.html#props"
         "leftLabelHTML": "Object"
         "rightLabelHTML": "React"
-
         "body": "this.props.${1:key}"
 
     "React: render":
@@ -91,10 +96,10 @@
         "rightLabelHTML": "React"
         "body": "shouldComponentUpdate(nextProps, nextState) {\n\t${1}\n}"
 
-    "React: render":
-        "prefix": "render"
-        "description": "render()"
-        "descriptionMoreURL": "https://facebook.github.io/react/docs/react-component.html#render"
+    "React: forceUpdate":
+        "prefix": "forceUpdate"
+        "description": "forceUpdate()"
+        "descriptionMoreURL": "https://facebook.github.io/react/docs/react-component.html#forceupdate"
         "leftLabelHTML": "fn()"
         "rightLabelHTML": "React"
-        "body": "${1:render}(){\n\treturn(\n\t\t${2}\n\t);\n}"
+        "body": "forceUpdate()"
