@@ -2,4 +2,4 @@
 
 Atom snippets for React with Redux
 
-![screenshot](https://cloud.githubusercontent.com/assets/5122156/20533938/81a9c118-b0c6-11e6-903d-a8df001d5bb9.png)
+![screenshot](https://cloud.githubusercontent.com/assets/5122156/20543118/e2afeb0c-b0eb-11e6-8961-e6e1784adfcd.png)
