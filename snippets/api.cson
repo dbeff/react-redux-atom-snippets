@@ -4,7 +4,7 @@
     'description': 'componentDidMount()'
     'body': """
         componentDidMount(){
-          ${1:content}
+            ${1:content}
         }
     """
   'React Redux':
@@ -12,7 +12,7 @@
     'description': 'componentDidUpdate(prevProps, prevState)'
     'body': """
         componentDidUpdate(prevProps, prevState){
-          ${1:content}
+            ${1:content}
         }
     """
   'React Redux':
@@ -20,7 +20,7 @@
     'description': 'componentWillMount()'
     'body': """
         componentWillMount(){
-          ${1:content}
+            ${1:content}
         }
     """
   'React Redux':
@@ -28,7 +28,7 @@
     'description': 'componentWillUnmount()'
     'body': """
         componentWillUnmount(){
-          ${1:content}
+            ${1:content}
         }
     """
   'React Redux':
@@ -36,7 +36,7 @@
     'description': 'componentWillReceiveProps(nextProps)'
     'body': """
         componentWillReceiveProps(nextProps){
-          ${1:content}
+            ${1:content}
         }
     """
   'React Redux':
@@ -44,7 +44,7 @@
     'description': 'componentWillUpdate(nextProps, nextState)'
     'body': """
         componentWillUpdate(nextProps, nextState){
-          ${1:content}
+            ${1:content}
         }
     """
   'React Redux':
@@ -52,7 +52,7 @@
     'description': 'shouldComponentUpdate(nextProps, nextState)'
     'body': """
         shouldComponentUpdate(nextProps, nextState){
-          ${1:content}
+            ${1:content}
         }
     """
   'React Redux':
@@ -78,8 +78,8 @@
     'description': 'render()'
     'body': """
         ${1:render}(){
-          return(
-            ${1:content}
-          );
+            return(
+                ${1:content}
+            );
         }
     """
