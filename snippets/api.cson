@@ -103,3 +103,52 @@
         "leftLabelHTML": "fn()"
         "rightLabelHTML": "React"
         "body": "forceUpdate()"
+        
+    "React: propTypes":
+        "prefix": "propTypes"
+        "description": "Class.propTypes = {}"
+        "descriptionMoreURL": "https://facebook.github.io/react/docs/typechecking-with-proptypes.html"
+        "leftLabelHTML": "Object"
+        "rightLabelHTML": "React"
+        "body": "${1:Class}.propTypes {\n\t${2:key}\n}"
+        
+    "React: defaultProps":
+        "prefix": "defaultProps"
+        "description": "Class.defaultProps = {}"
+        "descriptionMoreURL": "https://facebook.github.io/react/docs/react-without-es6.html#declaring-prop-types-and-default-props"
+        "leftLabelHTML": "Object"
+        "rightLabelHTML": "React"
+        "body": "${1:Class}.defaultProps {\n\t${2:key}\n}"
+            
+    "React: mapStateToProps":
+        "prefix": "mapStateToProps"
+        "description": "mapStateToProps()"
+        "descriptionMoreURL": "http://redux.js.org/docs/basics/UsageWithReact.html#implementing-container-components"
+        "leftLabelHTML": "fn()"
+        "rightLabelHTML": "React"
+        "body": "function mapStateToProps({${1:reducer}}) {\n\treturn{${1:reducer}}\n}"
+        
+    "React: mapDispatchToProps":
+        "prefix": "mapDispatchToProps"
+        "description": "mapDispatchToProps()"
+        "descriptionMoreURL": "http://redux.js.org/docs/basics/UsageWithReact.html#implementing-container-components"
+        "leftLabelHTML": "fn()"
+        "rightLabelHTML": "React"
+        "body": "function mapDispatchToProps(dispatch) {\n\treturn bindActionCreators({${1:reducer}},dispatch)\n}"
+        
+    "React: connect":
+        "prefix": "connect"
+        "description": "Class.defaultProps = {}"
+        "descriptionMoreURL": "https://facebook.github.io/react/docs/react-without-es6.html#declaring-prop-types-and-default-props"
+        "leftLabelHTML": "fn()"
+        "rightLabelHTML": "React"
+        "body": "export default connect(mapStateToProps, mapDispatchToProps)(${1:Class})"
+      
+    "React: action":
+        "prefix": "action"
+        "description": "action()"
+        "descriptionMoreURL": "https://facebook.github.io/react/docs/react-without-es6.html#declaring-prop-types-and-default-props"
+        "leftLabelHTML": "fn()"
+        "rightLabelHTML": "React"
+        "body": "export function ${1:name}(){\n\treturn{type:${2:ACTION_NAME},payload:${3:payload}}\n}"
+
