@@ -1,7 +1,9 @@
 ".source.js, .source.jsx, .source.ts":
-  'React Redux':
-    'prefix': 'react-container'
-    'description': 'React Redux Container'
+  'React: container':
+    'prefix': 'container'
+    'description': 'React container template'
+    "leftLabelHTML": "container"
+    "rightLabelHTML": "React"
     'body': """
         import React,{Component} from 'react';
         import {connect} from 'react-redux';

@@ -1,7 +1,9 @@
 ".source.js, .source.jsx, .source.ts":
-  'React Redux':
-    'prefix': 'react-reducer'
-    'description': 'React Redux Reducer'
+  'React: reducer':
+    'prefix': 'reducer'
+    'description': 'Reducer template'
+    "leftLabelHTML": "reducer"
+    "rightLabelHTML": "React"
     'body': """
         import {${1:ACTION}} from '../actions/index';
 

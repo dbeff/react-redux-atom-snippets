@@ -1,7 +1,9 @@
 ".source.js, .source.jsx, .source.ts":
-  'React Redux':
-    'prefix': 'react-component'
-    'description': 'React Redux Component'
+  'React: component':
+    'prefix': 'component'
+    'description': 'React component template'
+    "leftLabelHTML": "component"
+    "rightLabelHTML": "React"
     'body': """
         import React,{Component} from 'react';
 
