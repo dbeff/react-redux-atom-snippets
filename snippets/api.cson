@@ -110,7 +110,7 @@
         "descriptionMoreURL": "https://facebook.github.io/react/docs/typechecking-with-proptypes.html"
         "leftLabelHTML": "Object"
         "rightLabelHTML": "React"
-        "body": "${1:Class}.propTypes {\n\t${2:key}\n}"
+        "body": "${1:Class}.propTypes = {\n\t${2:key}\n}"
         
     "React: defaultProps":
         "prefix": "defaultProps"
@@ -118,7 +118,7 @@
         "descriptionMoreURL": "https://facebook.github.io/react/docs/react-without-es6.html#declaring-prop-types-and-default-props"
         "leftLabelHTML": "Object"
         "rightLabelHTML": "React"
-        "body": "${1:Class}.defaultProps {\n\t${2:key}\n}"
+        "body": "${1:Class}.defaultProps = {\n\t${2:key}\n}"
             
     "React: mapStateToProps":
         "prefix": "mapStateToProps"
