@@ -126,7 +126,7 @@
         "descriptionMoreURL": "http://redux.js.org/docs/basics/UsageWithReact.html#implementing-container-components"
         "leftLabelHTML": "fn()"
         "rightLabelHTML": "React"
-        "body": "function mapStateToProps({${1:reducer}}) {\n\treturn{${1:reducer}}\n}"
+        "body": "const mapStateToProps = (state) => ({\n\t})"
         
     "React: mapDispatchToProps":
         "prefix": "mapDispatchToProps"
@@ -134,7 +134,7 @@
         "descriptionMoreURL": "http://redux.js.org/docs/basics/UsageWithReact.html#implementing-container-components"
         "leftLabelHTML": "fn()"
         "rightLabelHTML": "React"
-        "body": "function mapDispatchToProps(dispatch) {\n\treturn bindActionCreators({${1:reducer}},dispatch)\n}"
+        "body": "const mapDispatchToProps = (dispatch) => ({\n\t})"
         
     "React: connect":
         "prefix": "connect"
@@ -142,7 +142,7 @@
         "descriptionMoreURL": "https://facebook.github.io/react/docs/react-without-es6.html#declaring-prop-types-and-default-props"
         "leftLabelHTML": "fn()"
         "rightLabelHTML": "React"
-        "body": "export default connect(mapStateToProps, mapDispatchToProps)(${1:Class})"
+        "body": "export default connect(mapStateToProps, mapDispatchToProps)(Componenent)"
       
     "React: action":
         "prefix": "action"

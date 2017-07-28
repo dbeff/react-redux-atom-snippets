@@ -5,16 +5,13 @@
     "leftLabelHTML": "component"
     "rightLabelHTML": "React"
     'body': """
-        import React,{Component} from 'react';
+        import React from 'react';
 
-        export default class ${1:Class} extends Component {
-
-            render() {
-                return (
-                    <div className="${2:class-name}">
-                        ${3:content}
-                    </div>
-                );
-            }
+        const Component = ({}) => {
+          return (
+            <div>
+     
+            </div>
+          )
         }
     """
