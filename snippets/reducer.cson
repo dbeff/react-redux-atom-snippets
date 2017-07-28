@@ -5,16 +5,15 @@
     "leftLabelHTML": "reducer"
     "rightLabelHTML": "React"
     'body': """
-        import {${1:ACTION}} from '../actions/index';
+        const initialState = {}
 
-        const initialState = ${2:initialState}
-
-        export default function(state = initialState,action) {
-            switch (action.type){
-                case ${3:ACTION}:
-                    return ${4:action.payload}
-            }
-            return state;
+        const Reducer = (state = initialState, action) => {
+          switch (action.type){
+            case "":
+              return 
+            default:
+              return state
+          }  
         }
-
+        export default Reducer
     """
