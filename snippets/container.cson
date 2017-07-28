@@ -5,34 +5,16 @@
     "leftLabelHTML": "container"
     "rightLabelHTML": "React"
     'body': """
-        import React,{Component} from 'react';
-        import {connect} from 'react-redux';
-        import {bindActionCreators} from 'redux';
+        import {connect} from 'react-redux'
 
-        class ${1:Class} extends Component {
+        const mapStateToProps = (state) => ({
+            
+        })
 
-            constructor(props){
-                super(props);
-                this.state = {};
-            }
+        const mapDispatchToProps = (dispatch) => ({
+          
+        })
 
-            render() {
-                return (
-                    <div className="${2:class-name}">
-                        ${3:content}
-                    </div>
-                );
-            }
-        }
-
-        function mapStateToProps({}){
-            return {};
-        }
-
-        function mapDispatchToProps(dispatch){
-            return bindActionCreators({},dispatch);
-        }
-
-        export default connect (mapStateToProps,mapDispatchToProps)(${1:Class});
+        export default connect (mapStateToProps,mapDispatchToProps)(Component);
 
     """
